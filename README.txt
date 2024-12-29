@@ -1,8 +1,9 @@
-# MEU PORTFÓLIO
+# MY PORTFOLIO
 
-#### Olá, eu sou o Matheus.
+#### Hi, I'm Matheus.
 
-Este é meu portfólio de projetos, aqui eu descrevo habilidades experiências entre outras coisas.
+This is my portfolio, where I describe skills, experiences, and other things.
 
 link:           https://msalles94.github.io/my_web_site/
-meu contato:    matheus.salles_1994@hotmail.com
+linkedin:https://www.linkedin.com/in/matheus-cordeiro-salles-06613022/
+email:    matheus.salles_1994@hotmail.com
