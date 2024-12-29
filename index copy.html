@@ -7,11 +7,11 @@
 <html> 
 	<head>
 		<title>MATHEUS SALLES</title>
+		<a href="teste.html">			<button>Ir para o Exemplo</button>		</a>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -23,40 +23,22 @@
 
 							<!-- HEADER -->
 								<header id="header">
-									<a href="index.html" class="logo">
-										<strong>MATHEUS CORDEIRO SALLES</strong> 
-									</a>
+									<a href="index.html" class="logo"><strong>MATHEUS CORDEIRO SALLES</strong> </a>
 									<ul class="icons">
-										<li>
-											<a 	href="https://www.linkedin.com/in/matheus-cordeiro-salles-06613022/" 
+										<li><a 	href="https://www.linkedin.com/in/matheus-cordeiro-salles-06613022/" 
 												target="_blank" 
 												rel="noreferrer noopener nofollow"
-												class="icon brands fa-linkedin-in">
-												<span class="label">LinkedIn</span>
-											</a>
-										</li>
-										<li>
-											<a href="https://github.com/MSalles94" 
+												class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a>
+										<li><a href="https://github.com/MSalles94" 
 													   target="_blank" 
 													   rel="noreferrer noopener nofollow"
-													   class="icon brands fa-github">
-													   <span class="label">GitHub</span>
-											</a>
-										</li>
+													   class="icon brands fa-github"><span class="label">GitHub</span></a>
+												</li>
 												
 									</ul>
-									
 								</header>
-						
-								<menu class="menu_main">
-									<a href="#" onclick="showContent('HOME')" >HOME</a>
-									<a href="#" onclick="showContent('EXPERIENCE') " >EXPERIENCE</a>
-									<a href="#" onclick="showContent('SKILLS')" >SKILLS</a>
-									<a href="#" onclick="showContent('PROJECTS')" >PROJECTS</a>
-									<a href="#" onclick="showContent('CONTACT')" >CONTACT</a>
-								</menu>
-								<!--HOME-->
-								<section id="HOME" style="display: flex; align-items: center; justify-content: space-between;">
+							<!-- APRESENTAÇÃO -->
+								<section id="banner">
 									<div class="content">
 										<header>
 											<h1>Hi, I'm Matheus<br />
@@ -73,10 +55,12 @@
 										</p>
 									</div>
 									<span class="image object">
-										<img src="images/matheus.jpeg" alt="" style="display: block;
-										margin: 0 0 2em 4em;
-										width: 50%; "/>
+										<img src="images/matheus.jpeg" alt="" />
 									</span>
+									
+								</section>
+								<!-- SOBRE MIM -->
+								<section id="banner">			
 									<div class="content">
 										<header class="major">
 											<h2>About me</h2>
@@ -96,63 +80,8 @@
 									</div>
 									
 								</section>
-								<!-- EXPERIÊNCIA -->
-								<section id='EXPERIENCE'>
-									<header class="major">
-										<h2>Experience</h2>
-									</header>
-									<div class="features" style="flex-direction: column;">
-										<article>  <!-- SERRANA -->
-											<a href="https://www.linkedin.com/company/serrana-distribuidora-ltda/posts/?feedView=all"  target="_blank" style="margin-right: 5%;">
-												<img src="images/experience_serrana.png" alt="" width=146 height="auto" >
-											</a>
-											<div class="content">
-												<p>
-													<h3 style="margin-bottom: 0;">Serrana Distribuidora ltda</h3>
-													<h4 style="margin-top: 0; margin-bottom: 0;">Data analyst</h4>
-													<h5 style="font-weight: normal;margin-top: 0; margin-bottom: 0;">SET 2022 - Present (+2 years)</h5>
-												</p>
-		
-												<ul>
-													<li>Maintenance and development of a Data Warehouse, data engineering;</li>
-													<li>Search for commercial opportunities, development of analysis and tools to control the main KPI's of profit and invoice;</li>
-													<li>Strategic Decision support </li>
-													<li>Development of operation/tactical reports for commercial;</li>
-													<li>Development of intern process and tools;</li>
-													<li>Investigation and emission of reports with sensitive information (commissioning and results);</li>
-													<li>Leading presentations.</li>
-												</ul>
-											</div>
-										</article>
-										<hr>
-										<article> <!-- SOFTYS / CARTA FABRIL -->
-
-											<a href="https://www.softys.com/pt-br/" target="_blank" style="margin-right: 5%;">
-												<img src="images/experience_softys.jpeg" alt="" width=146 height="auto">
-											</a>
-											<div class="content">
-												<p>
-													<h3 style="margin-bottom: 0;">Softys / Carta Fabril</h3>
-													<h4 style="margin-top: 0; margin-bottom: 0;">Business Analyst</h4>
-													<h5 style="font-weight: normal;margin-top: 0; margin-bottom: 0;">AUG 2020 - SET 2022  (2 years)</h5>
-												</p>
-
-												<ul>
-													<li>Development of tools for analysis and management of consumption;</li>
-													<li>Development of indicators for industrial performance;</li>
-													<li>Management of departmental routines;</li>
-													<li>Analysis of raw material consumption and enforcement of targeted actions;</li>
-													<li>Creation of inventory and production controls;</li>
-													<li>Optimization of control and analysis tools.</li>
-												</ul>
-
-											</div>
-										</article>
-									</article>
-									</div>
-								</section>
-								<!--SKILLS-->
-								<section id="SKILLS">
+							<!-- HABILIDADES -->
+								<section>
 									<header class="major">
 										<h2>Skills</h2>
 									</header>
@@ -206,8 +135,63 @@
 									</article>
 									</div>
 								</section>
-								<!-- PROJETOS -->
-								<section id="PROJECTS">
+							<!-- EXPERIÊNCIA -->
+							<section>
+								<header class="major">
+									<h2>Experience</h2>
+								</header>
+								<div class="features" style="flex-direction: column;">
+									<article>  <!-- SERRANA -->
+										<a href="https://www.linkedin.com/company/serrana-distribuidora-ltda/posts/?feedView=all"  target="_blank" style="margin-right: 5%;">
+											<img src="images/experience_serrana.png" alt="" width=146 height="auto" >
+										</a>
+										<div class="content">
+											<p>
+												<h3 style="margin-bottom: 0;">Serrana Distribuidora ltda</h3>
+												<h4 style="margin-top: 0; margin-bottom: 0;">Data analyst</h4>
+												<h5 style="font-weight: normal;margin-top: 0; margin-bottom: 0;">SET 2022 - Present (+2 years)</h5>
+											</p>
+	
+											<ul>
+												<li>Maintenance and development of a Data Warehouse, data engineering;</li>
+												<li>Search for commercial opportunities, development of analysis and tools to control the main KPI's of profit and invoice;</li>
+												<li>Strategic Decision support </li>
+												<li>Development of operation/tactical reports for commercial;</li>
+												<li>Development of intern process and tools;</li>
+												<li>Investigation and emission of reports with sensitive information (commissioning and results);</li>
+												<li>Leading presentations.</li>
+											</ul>
+										</div>
+									</article>
+									<hr>
+									<article> <!-- SOFTYS / CARTA FABRIL -->
+
+										<a href="https://www.softys.com/pt-br/" target="_blank" style="margin-right: 5%;">
+											<img src="images/experience_softys.jpeg" alt="" width=146 height="auto">
+										</a>
+										<div class="content">
+											<p>
+												<h3 style="margin-bottom: 0;">Softys / Carta Fabril</h3>
+												<h4 style="margin-top: 0; margin-bottom: 0;">Business Analyst</h4>
+												<h5 style="font-weight: normal;margin-top: 0; margin-bottom: 0;">AUG 2020 - SET 2022  (2 years)</h5>
+											</p>
+
+											<ul>
+												<li>Development of tools for analysis and management of consumption;</li>
+												<li>Development of indicators for industrial performance;</li>
+												<li>Management of departmental routines;</li>
+												<li>Analysis of raw material consumption and enforcement of targeted actions;</li>
+												<li>Creation of inventory and production controls;</li>
+												<li>Optimization of control and analysis tools.</li>
+											</ul>
+
+										</div>
+									</article>
+								</article>
+								</div>
+							</section>
+							<!-- PROJETOS -->
+								<section>
 									<header class="major">
 										<h2>Projects</h2>
 									</header>
@@ -274,62 +258,42 @@
 										</article>
 									</div>
 								</section>
-								<!-- CONTATO -->
-								<section id="CONTACT">			
-									<div class="features" style="display: flex; flex-direction: column;">
+							<!-- CONTATO -->
+							<section id="banner">			
+								<div class="features" style="display: flex; flex-direction: column;">
 
-										<header class="major">
-											<h2>Contact</h2>
-										</header>
-										
-										<a 	href="https://www.linkedin.com/in/matheus-cordeiro-salles-06613022/" 
-												target="_blank" >
-
-											<p style="font-size: 1.17em; margin: 0.83em 0; font-weight: bold; color: inherit;">
-											<strong>LinkedIn:  </strong></a>matheus-cordeiro-salles-06613022 
-										</p>
-										
-										<a 	href="https://github.com/MSalles94" 
-										target="_blank" >
-
-										<p style="font-size: 1.17em; margin: 0.83em 0; font-weight: bold; color: inherit;">
-											<strong>GitHub:  </strong></a>MSalles94
-										</p>
-										
-								
-										
-										<p style="font-size: 1.17em; margin: 0.83em 0; font-weight: bold; color: inherit;">
-											<STRONg>e-mail: </STRONg>matheus.salles_1994@hotmail.com 
-										</p>
-										
-										
-
-
-									</div>
-
-									<!-- DOWNLOAD CV -->
-									<div class="download_cv" style="display: flex; flex-direction: column;">
 									<header class="major">
-										<h2>download CV</h2>
+										<h2>Contact</h2>
 									</header>
-
-									<a href="download_files/CV_Matheus_DA_pt.pdf" download style="text-decoration: none;">
-										<button >
-										  Portuguese
-										</button>
-									</a>
-
-									<a href="download_files/CV_Matheus_DA_en.pdf" download style="text-decoration: none;">
-									<button >
-										English
-									</button>
-									</a>
-									  
-									</div>
-									 
-				
 									
-								</section>
+									<a 	href="https://www.linkedin.com/in/matheus-cordeiro-salles-06613022/" 
+											target="_blank" >
+
+										<p style="font-size: 1.17em; margin: 0.83em 0; font-weight: bold; color: inherit;">
+										<strong>LinkedIn:  </strong></a>matheus-cordeiro-salles-06613022 
+									</p>
+									
+									<a 	href="https://github.com/MSalles94" 
+									target="_blank" >
+
+									<p style="font-size: 1.17em; margin: 0.83em 0; font-weight: bold; color: inherit;">
+										<strong>GitHub:  </strong></a>MSalles94
+									</p>
+									
+							
+									
+									<p style="font-size: 1.17em; margin: 0.83em 0; font-weight: bold; color: inherit;">
+										<STRONg>e-mail: </STRONg>matheus.salles_1994@hotmail.com 
+									</p>
+									
+									
+
+
+								</div>
+			
+								
+							</section>
+
 						</div>
 					</div>
 			</div>
@@ -340,25 +304,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-			<script>
-				window.onload = function() {
-							showContent('HOME');
-						};
-				function showContent(option) {
-					// Esconde todas as seções
-					const sections = document.querySelectorAll('section');
-					sections.forEach(section => section.style.display = 'none');
-			
-					// Mostra a seção correspondente
-					const selectedSection = document.getElementById(option);
-					if (selectedSection) {
-						selectedSection.style.display = 'block';
-					}
-				}
-			</script>
-
-
 
 	</body>
 </html>

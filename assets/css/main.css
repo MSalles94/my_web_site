@@ -2271,3 +2271,57 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+    /* ALTERAÇÕES DO MATHEUS */
+    .menu_main {
+      border-bottom: 5px solid #f56a6a; 
+      display: flex; 
+      justify-content: space-between; 
+    }
+    
+    .menu_main a {
+      font-weight: bold; 
+      font-size: 2em;
+      color: #f56a6a;
+      flex-grow: 1;
+      text-align: center;
+    }
+    
+    .menu_main a:hover {
+      background-color: #f56a6a; 
+      color: #3d4449 !important;
+    }
+    
+    /* Responsividade para telas menores */
+    @media (max-width: 768px) {
+      .menu_main {
+        flex-direction: column; /* Coloca os links em uma coluna */
+        align-items: center;
+      }
+    
+      .menu_main a {
+        font-size: 1.5em; /* Diminui o tamanho da fonte */
+        padding: 10px 0;  /* Adiciona espaçamento entre os links */
+        width: 100%;      /* Cada link ocupa 100% da largura */
+        box-sizing: border-box;
+      }
+    }
+    
+    /* Para telas extremamente pequenas, como smartphones */
+    @media (max-width: 480px) {
+      .menu_main a {
+        font-size: 1.2em; /* Fonte menor */
+        padding: 8px 0;   /* Menor espaçamento */
+      }
+    }
+    
+
+.download_cv button {
+  padding: 10px 20px; 
+  font-size: 16px; 
+  background-color: #f56a6a; 
+  color: white !important; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
